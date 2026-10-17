@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.kvadrat {
+    max-width: 1100px;
+    height: 750px;
+    gap: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.kvadrat1 {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.kvadrat4 {
+    display: flex;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    color: darkgray;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
+    min-width: 0;
+}
+
+.kvadrat11 {
+    flex: 45;
+}
+
+.kvadrat3 {
+    flex: 50;
+}
+
+.kvadrat7 {
+    flex: 30;
+}
+
+.kvadrat13 {
+    flex: 57;
+}
+
+.kvadrat9,
+.kvadrat10 {
+    flex: 1;
+}
+
+.kvadrat5 {
+    flex: 43;
+}
+
+.kvadrat2 {
+    flex: 25;
+}
+
+.kvadrat12 {
+    flex: 30;
+}
+
+.kvadrat6 {
+    flex: 27;
+}
+
+.kvadrat8 {
+    display: flex;
+    gap: 15px;
+    flex: 25;
+    min-height: 0;
+}
